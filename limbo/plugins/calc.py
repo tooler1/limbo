@@ -16,7 +16,7 @@ def calc(eq):
     if not answer:
         answer = soup.findAll("span", attrs={"class": "_m3b"})
         if not answer:
-            return ":crying_cat_face: Sorry, google doesn't have an answer for you :crying_cat_face:"
+            return ":confused: Sorry, google doesn't have an answer for you :confused:"
 
     # They seem to use u\xa0 (non-breaking space) in place of a comma
     answer = answer[0].text.replace(u"\xa0", ",")
