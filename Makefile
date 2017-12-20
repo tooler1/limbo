@@ -1,4 +1,3 @@
-# Modified by tooler1
 export BOTNAME := limbo-tooler1
 
 .PHONY: testall
